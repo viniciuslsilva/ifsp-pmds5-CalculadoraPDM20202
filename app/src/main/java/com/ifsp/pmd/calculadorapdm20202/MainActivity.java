@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.mariuszgromada.math.mxparser.Expression;
+
 public class MainActivity extends AppCompatActivity {
     private TextView visorTv;
 
@@ -26,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
             if (btnText.equals("C")) {
                 visorTv.setText("");
             } else {
-                visorTv.setText("TODO-CALCULAR EXPRESSAO");
+                Expression expression = new Expression(visorTv.getText().toString());
+                String result = Double.toString(expression.calculate());
+                visorTv.setText(result);
             }
-
         } else {
             visorTv.setText(visorTv.getText().toString().concat(btnText.toString()));
         }
