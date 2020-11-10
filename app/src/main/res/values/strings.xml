@@ -10,4 +10,11 @@
     <string name="sete">7</string>
     <string name="oito">8</string>
     <string name="nove">9</string>
+    <string name="soma">+</string>
+    <string name="subtracao">-</string>
+    <string name="multiplicacao">*</string>
+    <string name="divisao">/</string>
+    <string name="limpeza">C</string>
+    <string name="resultado">=</string>
+    <string name="pontoDecimal">.</string>
 </resources>

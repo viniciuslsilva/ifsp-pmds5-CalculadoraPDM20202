@@ -23,36 +23,74 @@
 
 
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/zero" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/um" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/dois" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/tres" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/quatro" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/cinco" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/seis" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/sete" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/oito" />
         <Button
+            android:layout_margin="5dp"
             android:onClick="onClick"
             android:text="@string/nove" />
 
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/soma" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/subtracao" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/multiplicacao" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/divisao" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/limpeza" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/resultado" />
+        <Button
+            android:layout_margin="5dp"
+            android:onClick="onClick"
+            android:text="@string/pontoDecimal" />
     </GridLayout>
-    
+
 </LinearLayout>
