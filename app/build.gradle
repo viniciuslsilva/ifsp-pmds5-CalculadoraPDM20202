@@ -36,4 +36,8 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // https://mvnrepository.com/artifact/org.mariuszgromada.math/MathParser.org-mXparser
+    implementation group: 'org.mariuszgromada.math', name: 'MathParser.org-mXparser', version: '4.0.0'
+
 }
