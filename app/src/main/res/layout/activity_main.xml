@@ -15,36 +15,44 @@
         android:textSize="30sp"
         android:text="" />
 
-    <LinearLayout
-        android:id="@+id/buttonsParentLinearLayout"
-        android:layout_width="match_parent"
+    <GridLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_gravity="center"
+        android:columnCount="3">
+
 
         <Button
-            android:id="@+id/zeroBt"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="onClick"
             android:text="@string/zero" />
-
         <Button
-            android:id="@+id/umBt"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="onClick"
             android:text="@string/um" />
-
         <Button
-            android:id="@+id/doisBt"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="onClick"
             android:text="@string/dois" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/tres" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/quatro" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/cinco" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/seis" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/sete" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/oito" />
+        <Button
+            android:onClick="onClick"
+            android:text="@string/nove" />
 
-    </LinearLayout>
-
+    </GridLayout>
+    
 </LinearLayout>
