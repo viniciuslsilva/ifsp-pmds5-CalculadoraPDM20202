@@ -20,7 +20,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         Button button = (Button) view;
-        visorTv.setText(button.getText());
+        CharSequence btnText = button.getText();
+
+        if (btnText.equals("=") || btnText.equals("C")) {
+            if (btnText.equals("C")) {
+                visorTv.setText("");
+            } else {
+                visorTv.setText("TODO-CALCULAR EXPRESSAO");
+            }
+
+        } else {
+            visorTv.setText(visorTv.getText().toString().concat(btnText.toString()));
+        }
     }
 
 }
