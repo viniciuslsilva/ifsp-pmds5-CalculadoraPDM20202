@@ -17,4 +17,14 @@
     <string name="limpeza">C</string>
     <string name="resultado">=</string>
     <string name="pontoDecimal">.</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="sair">Sair</string>
+    <string name="site_ifsp">Site IFSP</string>
+    <string name="chamar_ifsp">Chamar IFSP</string>
+    <string name="tipo_calculadora">Tipo calculadora</string>
+    <string name="avancada">Avançada</string>
+    <string name="basica">Básica</string>
+    <string name="salvar">Salvar</string>
+    <string name="raiz_quadrada">√</string>
+    <string name="potenciacao">^</string>
 </resources>
